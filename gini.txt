@@ -1,0 +1,26 @@
+                winning_feature = new_index(winning_feature1);
+		node.splitFeature = winning_feature;
+                [ps,n] = sortrows(node.examples,winning_feature);
+                ls = node.labels(n);
+              %找出最优分裂特征之后用不纯度计算最优的特征值。
+	num = size(node.examples,1);
+                unique_labels = unique(ls);
+                for j = 1:1:num-1  %从第二个值开始
+                    left_ls = ls(1:j,:);
+                    right_ls = ls(j+1:end,:);
+                    %计算左右节点的基尼系数，基尼系数越小，纯度越高
+                    left_weight = j / num;
+                    right_weight = (num-j) / num;
+                    left_sum = 0;
+                    right_sum = 0;
+                  for i = 1:length(unique_labels)
+                      left_pc = length(find(left_ls==unique_labels(i))) / j;
+                      left_sum = left_sum+(left_pc*left_pc);
+                      right_pc = length(find(right_ls==unique_labels(i))) / (num-j);
+                      right_sum = right_sum+(right_pc*right_pc);
+                  end
+                  left_gini = 1-left_sum;
+                  right_gini = 1 - right_sum;
+                  impurity(j) = left_weight*left_gini + right_weight*right_gini;
+               end
+                [value,winning_index] = min(impurity)

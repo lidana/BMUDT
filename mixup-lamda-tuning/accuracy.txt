@@ -1,0 +1,459 @@
+
+wilt 
+confusion matrix: 
+462 0
+0 30
+accuracy:  100.000000 my confusion matrix: 
+462 0
+0 30
+my accuracy:62.318841 
+
+KungChi3 
+confusion matrix: 
+12 0
+2 1
+accuracy:  87.000000 my confusion matrix: 
+12 0
+3 0
+my accuracy:83.000000 
+
+KnuggetChase3 
+confusion matrix: 
+17 0
+6 0
+accuracy:  81.075515 my confusion matrix: 
+17 0
+6 0
+my accuracy:81.075515 
+
+cloud 
+confusion matrix: 
+11 3
+4 0
+accuracy:  59.111111 my confusion matrix: 
+13 1
+4 0
+my accuracy:64.222222 
+
+SPECTF 
+confusion matrix: 
+1 5
+2 25
+accuracy:  80.571096 my confusion matrix: 
+2 4
+2 25
+my accuracy:78.951049 
+
+prnn_crabs 
+confusion matrix: 
+8 2
+2 8
+accuracy:  86.500000 my confusion matrix: 
+10 0
+1 9
+my accuracy:88.500000 
+
+haberman 
+confusion matrix: 
+26 2
+6 2
+accuracy:  69.111111 my confusion matrix: 
+25 3
+4 4
+my accuracy:71.388889 
+
+stock 
+confusion matrix: 
+43 3
+1 48
+accuracy:  96.526316 my confusion matrix: 
+41 5
+4 45
+my accuracy:93.368421 
+
+qualitative-bankruptcy 
+confusion matrix: 
+8 0
+0 17
+accuracy:  98.400000 my confusion matrix: 
+8 0
+6 11
+my accuracy:71.200000 
+
+xd6 
+confusion matrix: 
+69 0
+11 20
+accuracy:  96.425773 my confusion matrix: 
+12 57
+0 31
+my accuracy:52.135052 
+
+tokyo1 
+confusion matrix: 
+42 2
+2 58
+accuracy:  93.194332 my confusion matrix: 
+44 0
+7 53
+my accuracy:83.011134 
+
+kc1-top5 
+confusion matrix: 
+0 1
+0 18
+accuracy:  93.759398 my confusion matrix: 
+0 1
+0 18
+my accuracy:94.473684 
+
+diabetes 
+confusion matrix: 
+49 7
+13 15
+accuracy:  76.829574 my confusion matrix: 
+42 14
+12 16
+my accuracy:72.167920 
+
+datatrieve 
+confusion matrix: 
+10 0
+2 1
+accuracy:  90.000000 my confusion matrix: 
+10 0
+3 0
+my accuracy:91.538462 
+
+planning-relax 
+confusion matrix: 
+12 1
+7 0
+accuracy:  64.333333 my confusion matrix: 
+13 0
+7 0
+my accuracy:71.500000 
+
+banknote-authentication 
+confusion matrix: 
+68 0
+0 71
+accuracy:  99.270073 my confusion matrix: 
+67 1
+1 70
+my accuracy:97.812319 
+
+ilpd 
+confusion matrix: 
+37 4
+17 3
+accuracy:  70.178067 my confusion matrix: 
+32 9
+15 5
+my accuracy:68.134539 
+
+sonar 
+confusion matrix: 
+12 3
+4 9
+accuracy:  80.000000 my confusion matrix: 
+12 3
+3 10
+my accuracy:81.857143 
+
+spambase 
+confusion matrix: 
+282 7
+18 154
+accuracy:  94.914222 my confusion matrix: 
+267 22
+41 131
+my accuracy:79.502971 
+
+heart-statlog 
+confusion matrix: 
+11 2
+4 10
+accuracy:  81.851852 my confusion matrix: 
+6 7
+1 13
+my accuracy:67.407407 
+
+monks-problems-1 
+confusion matrix: 
+11 17
+29 4
+accuracy:  25.186289 my confusion matrix: 
+25 3
+26 7
+my accuracy:45.791356 
+
+monks-problems-2 
+confusion matrix: 
+27 9
+14 11
+accuracy:  67.062842 my confusion matrix: 
+15 21
+9 16
+my accuracy:50.081967 
+
+monks-problems-3 
+confusion matrix: 
+8 26
+19 6
+accuracy:  18.918336 my confusion matrix: 
+25 9
+14 11
+my accuracy:47.738059 
+
+mfeat-morphological 
+confusion matrix: 
+174 0
+0 26
+accuracy:  99.850000 my confusion matrix: 
+174 0
+26 0
+my accuracy:93.200000 
+
+ionosphere 
+confusion matrix: 
+11 2
+3 20
+accuracy:  91.753968 my confusion matrix: 
+2 11
+0 23
+my accuracy:77.230159 
+
+blood-transfusion-service-center 
+confusion matrix: 
+57 4
+15 6
+accuracy:  77.142386 my confusion matrix: 
+51 10
+14 7
+my accuracy:76.938036 
+
+balloons 
+confusion matrix: 
+4 0
+3 0
+accuracy:  45.714286 my confusion matrix: 
+4 0
+3 0
+my accuracy:5.714286 
+
+breast-cancer-wisc-diag_R 
+confusion matrix: 
+42 1
+2 20
+accuracy:  96.324176 my confusion matrix: 
+43 0
+3 19
+my accuracy:95.609890 
+
+breast-cancer-wisc-prog_R 
+confusion matrix: 
+22 0
+4 1
+accuracy:  76.939571 my confusion matrix: 
+22 0
+4 1
+my accuracy:78.518519 
+
+conn-bench-sonar-mines-rocks_R 
+confusion matrix: 
+18 0
+3 7
+accuracy:  80.928571 my confusion matrix: 
+18 0
+2 8
+my accuracy:77.785714 
+
+cylinder-bands_R 
+confusion matrix: 
+15 6
+4 28
+accuracy:  79.093600 my confusion matrix: 
+3 18
+1 31
+my accuracy:63.473918 
+
+echocardiogram_R 
+confusion matrix: 
+7 1
+2 4
+accuracy:  80.934066 my confusion matrix: 
+0 8
+0 6
+my accuracy:42.747253 
+
+fertility_R 
+confusion matrix: 
+9 0
+1 0
+accuracy:  87.000000 my confusion matrix: 
+9 0
+1 0
+my accuracy:88.000000 
+
+haberman-survival_R 
+confusion matrix: 
+19 7
+7 3
+accuracy:  73.111111 my confusion matrix: 
+19 7
+9 1
+my accuracy:70.555556 
+
+heart-hungarian_R 
+confusion matrix: 
+17 4
+5 7
+accuracy:  78.996865 my confusion matrix: 
+13 8
+1 11
+my accuracy:75.893417 
+
+hepatitis_R 
+confusion matrix: 
+1 1
+1 17
+accuracy:  80.333333 my confusion matrix: 
+0 2
+1 17
+my accuracy:78.500000 
+
+ilpd-indian-liver_R 
+confusion matrix: 
+39 8
+10 4
+accuracy:  67.911249 my confusion matrix: 
+38 9
+9 5
+my accuracy:69.118146 
+
+ionosphere_R 
+confusion matrix: 
+14 0
+1 21
+accuracy:  92.293651 my confusion matrix: 
+11 3
+1 21
+my accuracy:85.746032 
+
+mammographic_R 
+confusion matrix: 
+48 9
+8 32
+accuracy:  81.164089 my confusion matrix: 
+42 15
+3 37
+my accuracy:76.790163 
+
+molec-biol-promoter_R 
+confusion matrix: 
+7 1
+2 6
+accuracy:  88.125000 my confusion matrix: 
+7 1
+3 5
+my accuracy:81.500000 
+
+oocytes_merluccius_nucleus_4d_R 
+confusion matrix: 
+28 10
+9 57
+accuracy:  79.349548 my confusion matrix: 
+26 12
+4 62
+my accuracy:79.736048 
+
+oocytes_trisopterus_nucleus_2f_R 
+confusion matrix: 
+32 10
+7 44
+accuracy:  80.809406 my confusion matrix: 
+34 8
+8 43
+my accuracy:80.587262 
+
+parkinsons_R 
+confusion matrix: 
+4 3
+1 16
+accuracy:  89.385965 my confusion matrix: 
+6 1
+2 15
+my accuracy:94.013158 
+
+pima_R 
+confusion matrix: 
+50 12
+9 13
+accuracy:  77.500000 my confusion matrix: 
+54 8
+6 16
+my accuracy:73.070175 
+
+pittsburg-bridges-T-OR-D_R 
+confusion matrix: 
+10 1
+1 0
+accuracy:  86.333333 my confusion matrix: 
+10 1
+1 0
+my accuracy:77.333333 
+
+planning_R 
+confusion matrix: 
+11 3
+6 0
+accuracy:  64.388889 my confusion matrix: 
+14 0
+6 0
+my accuracy:71.444444 
+
+post-operative_R 
+confusion matrix: 
+8 0
+8 0
+accuracy:  72.500000 my confusion matrix: 
+8 0
+8 0
+my accuracy:70.000000 
+
+statlog-australian-credit_R 
+confusion matrix: 
+5 19
+5 40
+accuracy:  65.362319 my confusion matrix: 
+2 22
+2 43
+my accuracy:64.782609 
+
+statlog-german-credit_R 
+confusion matrix: 
+65 4
+18 13
+accuracy:  75.100000 my confusion matrix: 
+68 1
+29 2
+my accuracy:70.200000 
+
+statlog-heart_R 
+confusion matrix: 
+12 1
+4 10
+accuracy:  83.333333 my confusion matrix: 
+6 7
+2 12
+my accuracy:66.296296 
+
+vertebral-column-2clases_R 
+confusion matrix: 
+19 5
+3 4
+accuracy:  81.935484 my confusion matrix: 
+15 9
+3 4
+my accuracy:82.580645 

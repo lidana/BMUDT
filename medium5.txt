@@ -1,0 +1,45 @@
+                winning_feature = new_index(winning_feature1);
+                [ps,n] = sortrows(node.examples,winning_feature);
+                ls = node.labels(n);
+   
+                %[va,winning_index] = min(abs(mean_feature_value-featurevalue))
+                num = size(node.examples,1);
+               % winning_index = floor(size(node.examples,1)/2);
+                node.splitFeature = winning_feature;
+                
+
+                 la = unique(node.labels);
+                 cate1 = table2array(ps(ls==la(1),:));
+                 cate2 = table2array(ps(ls==la(2),:));
+                 if size(cate1,1)>10
+                     maxvalue5 = cate1(end-5:1:end,winning_feature);
+                     maxvalue_cate1 = mean(maxvalue5);
+                     minvalue5 = cate1(1:1:5,winning_feature);
+                     minvalue_cate1 = mean(minvalue5);
+                 else
+                     maxvalue_cate1 = cate1(end,winning_feature);
+                     minvalue_cate1 = cate1(1,winning_feature);
+                 end
+                 if size(cate2,1)>10
+                     maxvalue5 = cate2(end-5:1:end,winning_feature);
+                     maxvalue_cate2 = mean(maxvalue5);
+                     minvalue5 = cate2(1:1:5,winning_feature);
+                     minvalue_cate2 = mean(minvalue5);
+                 else
+                     maxvalue_cate2 = cate2(end,winning_feature);
+                     minvalue_cate2 = cate2(1,winning_feature);
+                 end
+                %���һ������ֵ���ڶ�������ֵ������һ�����ұ�
+                if maxvalue_cate1>maxvalue_cate2
+                    splitvalue = (minvalue_cate1+maxvalue_cate2)/2;
+                else
+                    splitvalue = (minvalue_cate2+maxvalue_cate1)/2;
+                end   
+                [~,winning_index] = min(abs(table2array(ps(:,winning_feature))-splitvalue));
+                if winning_index == num
+                    return
+                end
+
+
+
+

@@ -1,0 +1,216 @@
+
+wilt 
+confusion matrix: 
+462 0
+0 30
+accuracy:  99.896480 my confusion matrix: 
+462 0
+0 30
+my accuracy:62.318841 
+
+KungChi3 
+confusion matrix: 
+12 0
+3 0
+accuracy:  84.666667 my confusion matrix: 
+12 0
+3 0
+my accuracy:83.833333 
+
+SPECTF 
+confusion matrix: 
+2 4
+6 21
+accuracy:  75.046620 my confusion matrix: 
+4 2
+4 23
+my accuracy:75.874126 
+
+prnn_crabs 
+confusion matrix: 
+8 2
+3 7
+accuracy:  81.500000 my confusion matrix: 
+10 0
+1 9
+my accuracy:88.500000 
+
+stock 
+confusion matrix: 
+43 3
+1 48
+accuracy:  94.631579 my confusion matrix: 
+41 5
+4 45
+my accuracy:93.368421 
+
+tokyo1 
+confusion matrix: 
+41 3
+2 58
+accuracy:  90.887652 my confusion matrix: 
+37 7
+1 59
+my accuracy:80.704453 
+
+kc1-top5 
+confusion matrix: 
+0 1
+0 18
+accuracy:  93.045113 my confusion matrix: 
+0 1
+0 18
+my accuracy:94.473684 
+
+datatrieve 
+confusion matrix: 
+9 1
+2 1
+accuracy:  90.769231 my confusion matrix: 
+10 0
+3 0
+my accuracy:91.538462 
+
+planning-relax 
+confusion matrix: 
+10 3
+6 1
+accuracy:  60.500000 my confusion matrix: 
+11 2
+7 0
+my accuracy:64.388889 
+
+sonar 
+confusion matrix: 
+10 5
+5 8
+accuracy:  71.928571 my confusion matrix: 
+11 4
+3 10
+my accuracy:75.500000 
+
+breast-cancer-wisc-diag_R 
+confusion matrix: 
+41 2
+2 20
+accuracy:  92.063187 my confusion matrix: 
+42 1
+3 19
+my accuracy:93.670330 
+
+conn-bench-sonar-mines-rocks_R 
+confusion matrix: 
+16 2
+0 10
+accuracy:  72.285714 my confusion matrix: 
+16 2
+4 6
+my accuracy:71.857143 
+
+fertility_R 
+confusion matrix: 
+9 0
+1 0
+accuracy:  83.000000 my confusion matrix: 
+9 0
+1 0
+my accuracy:88.000000 
+
+heart-hungarian_R 
+confusion matrix: 
+16 5
+4 8
+accuracy:  74.169279 my confusion matrix: 
+14 7
+3 9
+my accuracy:70.762800 
+
+hepatitis_R 
+confusion matrix: 
+1 1
+3 15
+accuracy:  76.000000 my confusion matrix: 
+0 2
+1 17
+my accuracy:77.833333 
+
+ionosphere_R 
+confusion matrix: 
+14 0
+2 20
+accuracy:  88.587302 my confusion matrix: 
+11 3
+8 14
+my accuracy:76.373016 
+
+molec-biol-promoter_R 
+confusion matrix: 
+7 1
+6 2
+accuracy:  64.625000 my confusion matrix: 
+6 2
+3 5
+my accuracy:68.875000 
+
+oocytes_merluccius_nucleus_4d_R 
+confusion matrix: 
+28 10
+16 50
+accuracy:  70.833333 my confusion matrix: 
+22 16
+13 53
+my accuracy:70.937029 
+
+oocytes_trisopterus_nucleus_2f_R 
+confusion matrix: 
+30 12
+12 39
+accuracy:  71.155619 my confusion matrix: 
+32 10
+16 35
+my accuracy:71.160345 
+
+parkinsons_R 
+confusion matrix: 
+5 2
+3 14
+accuracy:  86.864035 my confusion matrix: 
+5 2
+2 15
+my accuracy:89.385965 
+
+pima_R 
+confusion matrix: 
+44 18
+12 10
+accuracy:  71.296992 my confusion matrix: 
+54 8
+6 16
+my accuracy:73.070175 
+
+pittsburg-bridges-T-OR-D_R 
+confusion matrix: 
+10 1
+1 0
+accuracy:  90.333333 my confusion matrix: 
+10 1
+1 0
+my accuracy:77.333333 
+
+statlog-german-credit_R 
+confusion matrix: 
+58 11
+12 19
+accuracy:  70.700000 my confusion matrix: 
+51 18
+18 13
+my accuracy:68.600000 
+
+vertebral-column-2clases_R 
+confusion matrix: 
+18 6
+3 4
+accuracy:  79.354839 my confusion matrix: 
+15 9
+3 4
+my accuracy:82.580645 
